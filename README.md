@@ -1,14 +1,55 @@
-"About Dataset
-Context
-During the time when Machine Learning and Deep Learning are booming so much , it is very important to understand that all this knowledge is not of any use if we cant apply it to different areas and impact the humanity.
+# 🩺 Medical Disease Prediction using Symptoms
 
-This dataset will help you apply your existing knowledge to great use. Applying Knowledge to field of Medical Science and making the task of Physician easy is the main purpose of this dataset. This dataset has 132 parameters on which 42 different types of diseases can be predicted.
+A machine learning project that predicts 42 different diseases based on 132 symptom inputs. This solution leverages classification models to assist in early diagnosis and enable data-driven decision-making in healthcare.
 
-All the best !
+---
 
-Content
-Complete Dataset consists of 2 CSV files . One of them is training and other is for testing your model.
+## 📌 Project Overview
 
-Each CSV file has 133 columns. 132 of these columns are symptoms that a person experiences and last column is the prognosis.
+In the age of AI and healthcare innovation, the ability to turn data into actionable medical insights is critical. This project focuses on developing a predictive system that classifies diseases based on patient symptoms using supervised machine learning techniques.
 
-These symptoms are mapped to 42 diseases you can classify these set of symptoms to."
+The dataset includes over **130 symptom-based features**, with each data point corresponding to one of **42 distinct diagnoses**. The goal is to build accurate and scalable models that can support physicians in diagnosis and help bridge the gap between data and clinical decision-making.
+
+---
+
+## 📁 Dataset
+
+- **Files**: `Training.csv` and `Testing.csv`
+- **Columns**:
+  - `132` symptom features (e.g., fatigue, nausea, headache, etc.)
+  - `1` target column: `prognosis` (the disease label)
+- **Goal**: Train and test models that accurately map symptom combinations to disease classifications.
+
+---
+
+## ⚙️ Tools & Technologies
+
+- **Languages**: Python
+- **Libraries**:
+  - `pandas` for data manipulation
+  - `NumPy` for numerical computations
+  - `scikit-learn` for modeling and evaluation
+  - `matplotlib`, `seaborn` for visualization
+
+---
+
+## 🧠 Machine Learning Models
+
+The following classification models were trained and evaluated:
+
+- Random Forest Classifier
+- Naive Bayes
+- Gradient Boosting Classifier
+- K-Nearest Neighbors (KNN)
+- Logistic Regression
+- Support Vector Classifier (SVC)
+
+---
+
+## 📊 Evaluation Metrics
+
+Each model was assessed using the following metrics:
+
+- Accuracy
+- Precision
+- Recall
