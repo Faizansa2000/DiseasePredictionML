@@ -29,7 +29,6 @@ The dataset includes over **130 symptom-based features**, with each data point c
   - `pandas` for data manipulation
   - `NumPy` for numerical computations
   - `scikit-learn` for modeling and evaluation
-  - `matplotlib`, `seaborn` for visualization
 
 ---
 
